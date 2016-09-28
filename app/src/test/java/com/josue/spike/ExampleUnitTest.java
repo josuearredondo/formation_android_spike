@@ -13,6 +13,7 @@ public class ExampleUnitTest {
     /** First unit test for Palindrome */
     @Test
     public void wordIsPalindrome() throws Exception {
-        assertEquals("h1ouo1h", "h1ouo1h");
+        Palindrome palindrome = new Palindrome();
+        assertEquals(true, palindrome.isPalindrome("  h1ouo1h"));
     }
 }
