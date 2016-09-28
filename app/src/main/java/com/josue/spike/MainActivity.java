@@ -12,8 +12,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        /** Test Design Buttons */
+        /** Buttons menu */
         Button buttonPalindrome = (Button) findViewById(R.id.button1);
         Button buttonParenthesis = (Button) findViewById(R.id.button2);
         Button buttonFibonacci = (Button) findViewById(R.id.button3);
@@ -21,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     }
     /** Called when the user clicks the Palindrome button */
     public void openPalindrome(View view) {
-        //Intent intent = new Intent(this, PalindromeActivity.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this, PalindromeActivity.class);
+        startActivity(intent);
     }
     /** Called when the user clicks the Parenthesis button */
     public void openParenthesis(View view) {
