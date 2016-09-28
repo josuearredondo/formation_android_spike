@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Spike</string>
+    <string name="main_button_palindrome">Palindrome</string>
+    <string name="main_button_parenthesis">Parenthesis</string>
+    <string name="main_button_fibonnaci">Fibonaci</string>
+    <string name="main_button_random_text">Random Text</string>
 </resources>
