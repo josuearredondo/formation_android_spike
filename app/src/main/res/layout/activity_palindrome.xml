@@ -25,33 +25,14 @@
         android:hint="Enter your text here"
         android:inputType="text"
         android:background="@drawable/edit_text_style"/>
-    <Button
-        android:id="@+id/button_ok"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="20dp"
-        android:layout_marginRight="15dp"
-        android:layout_gravity="right"
-        android:textSize="26sp"
-        android:text="@string/button_ok_text"
-        android:background="@drawable/button_style"
-        android:textColor="@color/text_button_color"
-        style="@style/buttonStyle"
-        android:layout_centerVertical="true" />
     <TextView
-        android:id="@+id/output_text_view"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_centerVertical="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/text_view_color"
-        android:padding="10dp"
-        android:ellipsize="start"
-        android:gravity="center"
-        android:inputType="text"
-        android:hint="Result"
-        android:background="@drawable/text_style"/>
+        android:id="@+id/circle_text"
+        android:background="@drawable/circle_text_green"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:text=" "
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal" />
 
 </LinearLayout>

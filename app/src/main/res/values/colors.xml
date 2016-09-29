@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="text_button_color">#0a0a0a</color>
     <color name="text_view_color">#0b0b0b</color>
+    <color name="light_green">#2a8e32</color>
+    <color name="light_red">#ac2124</color>
 </resources>
